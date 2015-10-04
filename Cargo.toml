@@ -11,6 +11,6 @@ default-features = false
 [dependencies.libc]
 version = "0.1"
 
-[lib]
-name = "test_hyper"
-crate-type = ["dylib"]
+# [lib]
+# name = "test_hyper"
+# crate-type = ["staticlib"]
