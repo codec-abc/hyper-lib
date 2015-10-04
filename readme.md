@@ -11,7 +11,7 @@ The support for https has been deactivated as it is painfull to set up on Window
 * Compile with the matching version on Windows (msvc and not the mingw one)
 * Here is an example code that can use it
 
-```
+```cpp
 // testRustFFI.cpp : Defines the entry point for the console application.
 //
 
