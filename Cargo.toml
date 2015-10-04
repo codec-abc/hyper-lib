@@ -1,8 +1,7 @@
 [package]
-name = "test_hyper" # the name of the package
-version = "0.1.0"    # the current version, obeying semver
+name = "test_hyper"
+version = "0.1.0"
 authors = ["you@example.com"]
-
 
 [dependencies.hyper]
 version = "0.6"
@@ -11,6 +10,6 @@ default-features = false
 [dependencies.libc]
 version = "0.1"
 
-# [lib]
-# name = "test_hyper"
-# crate-type = ["staticlib"]
+[lib]
+name = "test_hyper"
+crate-type = ["staticlib"]
